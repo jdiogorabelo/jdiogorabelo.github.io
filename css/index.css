@@ -57,10 +57,6 @@ a::before {
     margin-bottom: 2.5px;
 }
 
-a:hover {
-    border-bottom: 2px solid #00FA9A;
-}
-
 #button {
     border-bottom: none; /* Tem que colocar para o a:hover não afetar o botão */
     display: inline-block;
