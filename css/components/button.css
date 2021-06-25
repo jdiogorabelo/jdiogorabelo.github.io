@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    background-color: #00FA9A; 
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 black;
+    /* Irá copiar a caixa toda, vai fazer uma cópia colocando ela atrás e fazendo uma sombra */
+    margin-right: 0;
+    /* Aqui estou removendo o margin-right de 30px que coloquei nos links em geral */
+    border-radius: 5px;
+    transition: transform 200ms linear; /* Colocando aqui ele irá animar nos dois momentos */
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.08); /* Irá aumentar o tamanho do elemento ao passar o mouse em cima */
+}
