@@ -1,4 +1,4 @@
-#box {
+.box {
     display: inline-block;
     background-color: #3A4042;
     box-shadow: 10px 10px 0px #000;
@@ -6,6 +6,6 @@
     padding: 42px 44px;
 }
 
-#box h1 { /* Pegar todo h1 filho de #box em qualquer nível */
+.box .title { /* elemento com class title que está dentro de um elemento com class box */
     margin-bottom: 28px;
 }

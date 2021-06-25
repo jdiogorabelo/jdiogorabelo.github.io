@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #0060FA; /* 4682B4 */
+    border-bottom: 10px solid #000; 
+    padding: 10px 20px;
+    align-items: center; /* Irá centralizar os flex-itens */
+}
+
+.header .navigation {
+    margin-right: 25px;
+}

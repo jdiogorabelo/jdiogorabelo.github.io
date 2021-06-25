@@ -1,0 +1,20 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none; 
+    margin-right: 30px;  /* Irá criar um espaçamento entre os links a direita */
+}
+
+.action::before {
+    content: '';
+    /* display: inline-block; usar caso não tenha o display flex */
+    width: 10px;
+    height: 10px;
+    background-color: #00FA9A; /* #F25A70  */
+    border-radius: 5px; /* Remover depois */
+    margin-right: 10px;
+    margin-bottom: 2.5px;
+}
