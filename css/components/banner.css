@@ -3,11 +3,12 @@
     background-image: url('../../assets/img/pexels-cottonbro-5483077.jpg');
     background-repeat: no-repeat;
     background-size: 100%; /* Irá colocar a largura do background em 100% */
-    object-fit: cover;
     height: 800px; /* 800px */
     border-bottom: 10px solid #000;
+
+    display: flex;
+    justify-content: center;
     padding-top: 115px;
-    padding-left: 90px;
 }
 
 .banner .wrapper {
