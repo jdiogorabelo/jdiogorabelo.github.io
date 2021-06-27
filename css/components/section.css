@@ -1,4 +1,6 @@
 .section {
     background-color: #03CEA4;
     border-bottom: 10px solid #345995;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }

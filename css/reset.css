@@ -2,7 +2,7 @@ body {
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
 
-body { 
+body, h1, h2, h3 { 
     margin: 0;
 }
 
@@ -11,4 +11,3 @@ button {
     /* font-family: "Fira Code", Arial, Helvetica, sans-serif; */
     font-family: inherit; /* Irá herdar do pai, aqui no caso é o body */
 }
-
