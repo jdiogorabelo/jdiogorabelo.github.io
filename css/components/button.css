@@ -1,9 +1,8 @@
 .button {
     display: inline-block;
-    background-color: #00FA9A; 
+    background-color: #03CEA4; 
     padding: 18px 20px;
     box-shadow: 5px 5px 0 black;
-    /* Irá copiar a caixa toda, vai fazer uma cópia colocando ela atrás e fazendo uma sombra */
     margin-right: 0;
     /* Aqui estou removendo o margin-right de 30px que coloquei nos links em geral */
     border-radius: 5px;
