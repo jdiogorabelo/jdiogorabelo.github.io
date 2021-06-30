@@ -3,12 +3,20 @@
     border-bottom: 10px solid #345995;
     padding-top: 50px;
     padding-bottom: 100px;
-    height: 800px;
+
+    
+}
+
+.section .main-title {
+    margin-bottom: 60px;
+}
+
+.section.-skills {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section .main-title {
-    margin-bottom: 60px;
+.section.-projects {
+    background-color: #345995;
 }

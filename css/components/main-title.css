@@ -6,17 +6,24 @@
     margin-bottom: 28px;
 }
 
-.main-title.-second {
+.main-title.-skills {
     color: #FFF;
     text-shadow: none;
     text-align: center;
 }
 
-.main-title_header {
+.main-title.-projects {
+    color: #FFF;
+    text-shadow: none;
+    text-align: center;
+}
+
+.main-title.-header {
     font-family: 'Press Start 2P';
     color: #FFF;
     text-shadow: 4px 4px 0px #000;
     margin-left: 25px;
     display: inline;
+    margin-bottom: 0;
 }
 

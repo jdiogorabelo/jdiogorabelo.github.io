@@ -1,0 +1,18 @@
+.card-project { /* Irá alinhar o que está dentro de <figure> */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#345995;
+    width: 280px;
+    height: 280px;  /* w280+h280 emmet */
+}
+
+.card-project.-green { 
+    /* O nome da variação nós escolhemos */
+    background-color: #03CEA4;
+}
+
+.card-project.-purple {
+    background-color: #7C5E99;
+}
