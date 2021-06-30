@@ -2,9 +2,7 @@
     background-color: #03CEA4;
     border-bottom: 10px solid #345995;
     padding-top: 50px;
-    padding-bottom: 100px;
-
-    
+    padding-bottom: 100px;    
 }
 
 .section .main-title {
@@ -19,4 +17,8 @@
 
 .section.-projects {
     background-color: #345995;
+}
+
+.section.-bgBlack {
+    background-color: #000;
 }
