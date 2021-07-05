@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     box-sizing: border-box;
     background-image: url('../../assets/img/pexels-bich-tran-669996.jpg');
     background-repeat: no-repeat;
@@ -10,17 +10,17 @@
     padding-top: 160px;
 }
 
-.banner .banner-wrapper {
+.main-banner .banner-wrapper {
     display: flex;
     flex-direction: column;
     width: 640px;
 }
 
-.banner .box {
+.main-banner .main-box {
     margin-bottom: 40px;
 }
 
-.banner .navigation {
+.main-banner .navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;

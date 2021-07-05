@@ -1,9 +1,17 @@
 .main-title {
-    font-family: 'Press Start 2P', sans-serif;
-    color: #03CEA4;
     font-size: 40px;
+    color: #FFF;
+}
+
+.main-title.-banner {
+    font-family: 'Press Start 2P', sans-serif;
     text-shadow: 4px 4px 0px #000;
+    color: #03CEA4;
     margin-bottom: 28px;
+}
+
+.main-title.-footer {
+    font-size: 20px;
 }
 
 .main-title.-second {
@@ -13,7 +21,6 @@
 }
 
 .main-title.-header {
-    font-family: 'Press Start 2P';
     color: #FFF;
     text-shadow: 4px 4px 0px #000;
     margin-left: 25px;

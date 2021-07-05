@@ -1,0 +1,8 @@
+.main-description {
+    color: #FFF;
+    font-size: 30px;
+    line-height: 1.4; /* 40% a mais que o normal */
+    font-weight: 300px;
+    text-align: justify;
+    padding: 15px;
+}

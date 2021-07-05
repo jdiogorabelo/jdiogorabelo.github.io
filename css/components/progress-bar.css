@@ -1,13 +1,33 @@
 .progress-bar {
-    box-sizing: border-box;
-    background-color: #FFF;
     border: 5px solid #000;
     border-radius: 5px;
     height: 40px;
+    width: 400px;
+    background-color: #FFF;
 }
 
-.progress-bar::-webkit-progress-bar,
-.progress-bar::-moz-progress-bar {
-    background-color:#345995;  
+.progress-bar .line {
+    width: 75%;
+    height: 40px;/* Faltava colocar o height pois o elemento estava sem altura */
+    line-height: 40px;
+    background-color: #345995;
+    text-align: center;
+    color: #FFF;
+    font-weight: 900;
+}
 
+.progress-bar .-html {
+    width: 50%;
+}
+
+.progress-bar .-css {
+    width: 40%;
+}
+
+.progress-bar .-js {
+    width: 25%;
+}
+
+.progress-bar .-ux {
+    width: 15%;
 }

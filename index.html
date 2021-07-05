@@ -8,55 +8,74 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Aqui carrega a nossa fonte -->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/logo.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/skill-wrapper.css">
     <link rel="stylesheet" href="css/components/card-project.css">
     <link rel="stylesheet" href="css/components/card-wrapper.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/arrow-button.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/img-contatos.css">
+    <link rel="stylesheet" href="css/components/social-wrapper.css">
+    <link rel="stylesheet" href="css/components/contact-wrapper.css">
+
+    <!-- Ctrl + clicar no link para ir até o arquivo -->
     
 </head>
 <body>
-    <header class="header">
+    <header class="main-header">
         <div id="logo">
             <img src="assets/img/logo-diogo3.jpg" alt="imagem-logo">
             <h1 class="main-title -header">&lt;Coder&gt;</h1>
         </div>
         
         <nav class="navigation">
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a class="button" href="" lang="eng">Download CV</a>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
+            <a class="main-button" href="" lang="eng">Download CV</a>
         </nav>
     </header>
     
-    <section class="banner">
+    <section class="main-banner">
         <div class="banner-wrapper">
-            <div class="box">
-                <h1 class="main-title">Diogo Rabelo</h1>
+            <div class="main-box">
+                <h1 class="main-title -banner">Diogo Rabelo</h1>
                 <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
 
             <div class="navigation">
-                <a class="button" href="" lang="eng">Download CV</a>
-                <a class="button" href="">Contatos</a>
+                <a class="main-button" href="" lang="eng">Download CV</a>
+                <a class="main-button" href="">Contatos</a>
             </div>
         </div>
     </section>
 
-    <section class="section -skills">
+    <section class="main-section -bgBlue">
+        <h2 class="main-title -second">Sobre</h2>
+        <!-- p.description -->
+        <p class="main-description">
+            Estudante de T.I, cursando Análise e desenvolvimento de sistemas na UNINASSAU,
+            pretendo seguir a carreira de FRONTEND.
+        </p>
+    </section>
+
+    <section class="main-section -skills">
         <div class="main-wrapper">
             <h2 class="main-title -second">Skills</h2>
             <div class="skill-wrapper">
@@ -64,35 +83,43 @@
                     <img class="icon" src="img/ico_html5.png" alt="HTML-Icon">
                     <div class="right">
                         <h3 class="title">HTML</h3> <!-- h3 para ter um nível menor de importância -->
-                        <progress class="progress-bar" max="100" value="40">40%</progress>
+                        <div class="progress-bar">
+                            <div class="line -html"></div>
+                        </div>
                     </div>
                 </article>
                 <article class="skill-tec">
                     <img class="icon" src="img/ico_css3.png" alt="CSS-Icon">
                     <div class="right">
                         <h3 class="title">CSS</h3>
-                        <progress class="progress-bar" max="100" value="40">40%</progress>
+                        <div class="progress-bar">
+                            <div class="line -css"></div>
+                        </div>
                     </div>
                 </article>
                 <article class="skill-tec">
                     <img class="icon" src="img/ico_js.png" alt="JavaScript-Icon">
                     <div class="right">
                         <h3 class="title">JavaScript</h3>
-                        <progress class="progress-bar" max="100" value="25">25%</progress>
+                        <div class="progress-bar">
+                            <div class="line -js"></div>
+                        </div>
                     </div>
                 </article>
                 <article class="skill-tec">
                     <img class="icon" src="img/ico_ux.png" alt="UX-Icon">
                     <div class="right">
                         <h3 class="title">UX</h3>
-                        <progress class="progress-bar" max="100" value="10">10%</progress>
+                        <div class="progress-bar">
+                            <div class="line -ux"></div>
+                        </div>
                     </div>
                 </article>
             </div>
         </div>
     </section>
 
-    <section class="section -bgBlack">
+    <section class="main-section -bgBlack">
         <h2 class="main-title -second">Projetos</h2>
 
         <div class="card-wrapper">
@@ -101,27 +128,52 @@
                 <a href="https://jdiogorabelo.github.io/">
                     <figure class="card-project">
                         <img class="logo" src="assets/img/logo-diogo3.jpg" alt="Imagem-logo-diogo">
-                        <figcaption>Portfólio</figcaption>
+                        <figcaption class="caption">Portfólio</figcaption>
                     </figure>
                 </a>
 
-                <a href="">
-                    <figure class="card-project -green" target="_blank">
+                
+                <a href="" target="_blank">
+                    <figure class="card-project -green">
                         <img class="logo" src="img/pexels-pixabay-356079.jpg" alt="Imagem-logo-diogo">
-                        <figcaption>Under construction</figcaption>
+                        <figcaption class="caption">Under construction</figcaption>
                     </figure>
                 </a>
+                
 
-                <a href="">
-                    <figure class="card-project -purple" target="_blank">
+                <a href="#" target="_blank">
+                    <figure class="card-project -purple">
                         <img class="logo" src="img/pexels-pixabay-356079.jpg" alt="Imagem-logo-diogo">
-                        <figcaption class="">Under construction</figcaption>
+                        <figcaption class="caption">Under construction</figcaption>
                     </figure>
                 </a>
 
             </div>
         </div>
-
     </section>
+
+    <section class="main-section -contatos">
+        <div class="contact-wrapper">
+            <h2 class="main-title">Contatos</h2>
+            
+            <a class="email" href="mailto:diogorabelo95@gmail.com" target="_blank">Email: diogorabelo95@gmail.com</a>
+            
+            <div class="social-wrapper">
+                <a href="https://github.com/jdiogorabelo" target="_blank">
+                    <img class="img-contatos" src="img/github.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/diogorabelodev/" target="_blank">
+                    <img class="img-contatos" src="img/instagram.png" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/diogo-rabelo-856ab3191/" target="_blank">
+                    <img class="img-contatos" src="img/linkedin.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <h3 class="main-title -footer">Desenvolvido por Diogo Rabelo</h3>
+    </footer>
 </body>
 </html>

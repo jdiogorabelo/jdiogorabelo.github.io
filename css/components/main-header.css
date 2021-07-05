@@ -1,4 +1,4 @@
-.header {
+.main-header {
     display: flex;
     justify-content: space-between; 
     background-color: #345995;
@@ -7,6 +7,6 @@
     align-items: center; /* Irá centralizar os flex-itens */
 }
 
-.header .navigation {
+.main-header .navigation {
     margin-right: 25px;
 }

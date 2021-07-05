@@ -3,23 +3,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:#345995;
-    width: 280px;
-    height: 280px;  /* w280+h280 emmet */
     border-radius: 3px;
-    padding: 5px;
+    box-sizing:content-box;
 }
+
+.caption {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.card-project img.logo {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #345995;
+    border-radius: 50%;
+}
+
 
 /* 
 O card-project não coloca o tamanho na imagem, ele coloca o tamanho na caixa 
 do elemento <figure> 
 */
 
-.card-project.-green { 
-    /* O nome da variação nós escolhemos */
-    background-color: #03CEA4;
-}
-
-.card-project.-purple {
-    background-color: #7C5E99;
-}
